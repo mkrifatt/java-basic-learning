@@ -10,7 +10,8 @@ public class gpt1 {
 //		int age = 25;
 //		
 //		System.out.println(name);
-//		
+		
+//		--condition
 //		if(age >= 18) {
 //			System.out.println("Adult");
 //		}else {
@@ -34,13 +35,13 @@ public class gpt1 {
 //		System.out.println(names[0]);
 //	}
 //}
-		
-		List<String> names = new ArrayList<>();
-		
-		names.add("kudrat");
-		names.add("rahim");
-		names.add("karim");
-		
-		System.out.println(names.get(1));
+//		--LIST STRING
+//		List<String> names = new ArrayList<>();
+//		
+//		names.add("kudrat");
+//		names.add("rahim");
+//		names.add("karim");
+//		
+//		System.out.println(names.get(1));
 	}
 }
