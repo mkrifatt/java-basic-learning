@@ -39,6 +39,27 @@ public class gpt1 {
 //    public void displayInfo() {
 //        System.out.println("Name: " + this.name + ", Age: " + this.age);
 //    }
+	
+	
+//	--FOllOW (10) UNDER ENCAPSULATION
+//	---------------------------------
+//	<<I'm doing encapsulation by making the name 
+//	variable private and providing a public 
+//	getter method to access it.>>
+	
+//	private String name;
+//	
+////	<<and this is the getter method for the name 
+////	variable>>
+//	public String getName() {
+//		return name;
+//	}
+//	
+//	public void setName(String name) {
+//		if(name != null && !name.isEmpty()) {
+//			this.name = name;
+//		}
+//	}
 	public static void main(String[] args) {
 //		--------------------------
 //	1--BASIC
@@ -104,7 +125,7 @@ public class gpt1 {
 		
 		
 //		-------------------------
-//		8--METHOD
+//	8--METHOD
 //		<creating an object of the gpt1 class beacause the add method is not static but 
 //		if it is static then we can call it directly without creating an object
 //		as a example, if the add method is static then we can call it like this: gpt1.add(5, 10);>
@@ -119,12 +140,22 @@ public class gpt1 {
 
 		
 //		-------------------------
-//		9--CONSTRUCTOR
+//	9--CONSTRUCTOR
 //		// new User(...) লেখার সাথে সাথেই কনস্ট্রাক্টর রান হবে
 //        gpt1 user = new gpt1("Kudrot", 26);
 //
 //        // সাধারণ মেথডকে নিজের ইচ্ছামতো কল করতে হচ্ছে
 //        user.displayInfo();
+
 		
+//		-------------------------
+//	10--ENCAPSULATION
+//		gpt1 user = new gpt1();
+//
+//        // Setter দিয়ে নাম সেট করা
+//        user.setName("Kudrot");
+//
+//        // Getter দিয়ে নাম প্রিন্ট করা
+//        System.out.println(user.getName());
 	}
 }
