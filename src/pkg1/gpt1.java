@@ -3,14 +3,13 @@ package pkg1;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class gpt1 {
 //	--FOllOW (7) UNDER CLASSES
 //	---------------------------------
 //	step 1: define the class variables blueprint
-	String name;
-	int age;
-	
+//	String name;
+//	int age;
+//	
 	
 //	--FOllOW (8) UNDER METHOD
 //	---------------------------------
@@ -23,6 +22,23 @@ public class gpt1 {
 //	public void greet() {
 //		System.out.println("Hello, welcome to the java program!");
 //	}
+	
+//	--FOllOW (9) UNDER CONSTRUCTOR
+//	---------------------------------
+//	this is constructor's variable 
+//	String name;
+//    int age;
+//
+//    // ১. কনস্ট্রাক্টর (কোনো রিটার্ন টাইপ নেই, ক্লাসের নামে নাম)
+//    public gpt1(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//        System.out.println("অবজেক্ট তৈরি হওয়ার সাথে সাথে কনস্ট্রাক্টর রান হয়েছে!");
+//    }
+// // ২. সাধারণ মেথড (রিটার্ন টাইপ void, যেকোনো নাম)
+//    public void displayInfo() {
+//        System.out.println("Name: " + this.name + ", Age: " + this.age);
+//    }
 	public static void main(String[] args) {
 //		--------------------------
 //	1--BASIC
@@ -75,16 +91,16 @@ public class gpt1 {
 		
 //		-----------------------------
 //	7-- CLASSES
-//		step2: create an object/instance of the gpt1 class
-		gpt1 user = new gpt1();
-		
-//		step3: assign values to the class variables using the object
-		user.name = "kudrat";
-		user.age = 25;
-		
-//		step4: access the class variables using the object and print them
-		System.out.println("Name: " + user.name);
-		System.out.println("Age: " + user.age);
+////		step2: create an object/instance of the gpt1 class
+//		gpt1 user = new gpt1();
+//		
+////		step3: assign values to the class variables using the object
+//		user.name = "kudrat";
+//		user.age = 25;
+//		
+////		step4: access the class variables using the object and print them
+//		System.out.println("Name: " + user.name);
+//		System.out.println("Age: " + user.age);
 		
 		
 //		-------------------------
@@ -101,6 +117,14 @@ public class gpt1 {
 //		System.out.println("Name: " + name);
 //		demo.greet();
 
+		
+//		-------------------------
+//		9--CONSTRUCTOR
+//		// new User(...) লেখার সাথে সাথেই কনস্ট্রাক্টর রান হবে
+//        gpt1 user = new gpt1("Kudrot", 26);
+//
+//        // সাধারণ মেথডকে নিজের ইচ্ছামতো কল করতে হচ্ছে
+//        user.displayInfo();
 		
 	}
 }
