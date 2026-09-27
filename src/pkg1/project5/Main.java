@@ -1,4 +1,4 @@
-package pkg1.project4;
+package pkg1.project5;
 
 public class Main {
 
@@ -17,7 +17,6 @@ public class Main {
 		int laptopTotal = product1.calculateTotalValue();
 		int shirtTotal = product2.calculateTotalValue();
 		
-		int totalValue = laptopTotal + shirtTotal;
 		System.out.println("\nTotal Value of Laptop: " + laptopTotal);
 		System.out.println("Total Value of Shirt: " + shirtTotal);
 

@@ -1,7 +1,7 @@
 package pkg1.Project3;
 
-
 public class main {
+
     // Fields
     String name;
     int price;
@@ -22,5 +22,15 @@ public class main {
         System.out.println("Price: " + price);
         System.out.println("Quantity: " + quantity);
         System.out.println("Category: " + category);
+    }
+
+    // Main method
+    public static void main(String[] args) {
+
+        // Create an object
+        main product = new main("Laptop", 100000, 2, "Electronics");
+
+        // Display product details
+        product.displayProduct();
     }
 }

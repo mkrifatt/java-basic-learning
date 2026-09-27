@@ -1,11 +1,11 @@
-package pkg1.project4;
+package pkg1.project5;
 
 public class Product {
 	//FIELDS
-	String name;
-	int price;
-	int quantity;
-	String category;
+	private String name;
+	private int price;
+	private int quantity;
+	private String category;
 	
 	//CONSTRUCTOR
 	public Product(String name, int price, int quantity, String category) {
