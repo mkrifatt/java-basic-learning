@@ -1,4 +1,4 @@
-package pkg1.project5;
+package step06_encapsulation;
 
 public class Product {
 	//FIELDS

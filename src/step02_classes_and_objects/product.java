@@ -1,4 +1,4 @@
-package pkg1.projectONE;
+package step02_classes_and_objects;
 
 public class product {
 	String name;

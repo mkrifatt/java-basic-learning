@@ -1,4 +1,4 @@
-package pkg1.project6;
+package step07_getters_and_setters;
 
 public class Product {
 

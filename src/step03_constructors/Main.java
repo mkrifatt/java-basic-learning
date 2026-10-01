@@ -1,4 +1,4 @@
-package pkg1.project2;
+package step03_constructors;
 
 public class Main {
 

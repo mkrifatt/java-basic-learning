@@ -1,6 +1,6 @@
-package pkg1.projectONE;
+package step02_classes_and_objects;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		

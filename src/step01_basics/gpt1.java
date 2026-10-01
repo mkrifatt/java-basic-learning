@@ -1,4 +1,4 @@
-package pkg1;
+package step01_basics;
 
 import java.util.ArrayList;
 import java.util.List;

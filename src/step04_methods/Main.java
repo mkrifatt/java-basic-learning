@@ -1,6 +1,6 @@
-package pkg1.Project3;
+package step04_methods;
 
-public class main {
+public class Main {
 
     // Fields
     String name;
@@ -9,7 +9,7 @@ public class main {
     String category;
 
     // Constructor
-    public main(String name, int price, int quantity, String category) {
+    public Main(String name, int price, int quantity, String category) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
@@ -28,7 +28,7 @@ public class main {
     public static void main(String[] args) {
 
         // Create an object
-        main product = new main("Laptop", 100000, 2, "Electronics");
+        Main product = new Main("Laptop", 100000, 2, "Electronics");
 
         // Display product details
         product.displayProduct();

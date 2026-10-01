@@ -1,4 +1,4 @@
-package pkg1.Project3;
+package step04_methods;
 
 public class product {
     // Fields

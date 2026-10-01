@@ -1,4 +1,4 @@
-package pkg1.project4;
+package step05_methods_calculations;
 
 public class Product {
 	//FIELDS
